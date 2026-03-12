@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/MainMenu.unity
-    guid: 9ac12b21176d6ff49887dc578485dea5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: afd9d7cc07a579447b39958bca6f3418
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9ac12b21176d6ff49887dc578485dea5
+  - enabled: 1
     path: Assets/Scenes/8 ball pool.unity
     guid: 4f571bbbff2ab6741a99c9f60aba25b1
+  - enabled: 1
+    path: Assets/Scenes/Health centre.unity
+    guid: e8741ccfcd3adba4ba2f79b4aedbbadd
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 50a73f0d1fb83c74a97e36591120f4df, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46fcf0f780cef5a48a904d6a9458f39d, type: 2}
