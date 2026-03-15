@@ -7,12 +7,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
-    public void LoadNextScene()
-{
-    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-    SceneManager.LoadScene(currentSceneIndex + 1);
-}
-
+    public void Exit(){
+        SceneManager.LoadScene("MainMenu");
+    }
     public void QuitApp()
     {
         Application.Quit();
